@@ -1,10 +1,10 @@
 'use strict'
 
     function numerosInteiros(){
-    const number1 = parseFloat(document.getElementById('number1').value)
-    const number2 = parseFloat(document.getElementById('number1').value)
-    const number3 = parseFloat(document.getElementById('number1').value)
-    const number4 = parseFloat(document.getElementById('number1').value)
+    const number1 = parseInt(document.getElementById('number1').value)
+    const number2 = parseInt(document.getElementById('number1').value)
+    const number3 = parseInt(document.getElementById('number1').value)
+    const number4 = parseInt(document.getElementById('number1').value)
     const formExerc = document.getElementById('form-exerc')
     const resultado = document.getElementById('result')
     if(formExerc.reportValidity()){
